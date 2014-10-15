@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-daterangepicker",
+  "version": "0.1.0",
+  "description": "Date range picker component for Bootstrap",
+  "main": "daterangepicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ometria/bootstrap-daterangepicker.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Ometria/bootstrap-daterangepicker/issues"
+  },
+  "homepage": "https://github.com/Ometria/bootstrap-daterangepicker"
+}
