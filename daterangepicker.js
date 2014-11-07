@@ -560,6 +560,7 @@
 
             this.element.addClass('active');
             this.container.show();
+            this.container.addClass('open');
             this.move();
 
             // Create a click proxy that is private to this instance of datepicker, for unbinding
@@ -598,6 +599,7 @@
 
             this.element.removeClass('active');
             this.container.hide();
+            this.container.removeClass('open');
 
             if (!this.startDate.isSame(this.oldStartDate) || !this.endDate.isSame(this.oldEndDate))
                 this.notify();
