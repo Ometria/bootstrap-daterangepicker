@@ -7,6 +7,14 @@
  *
  * Built for http://www.improvely.com
  */
+ 
+ .daterangepicker {
+ display: none;
+}
+
+.daterangepicker.open {
+ display: block;
+}
 
 .daterangepicker.dropdown-menu {
   max-width: none;
